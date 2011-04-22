@@ -1,38 +1,8 @@
 <?php
     require 'common.php';
     /*
-        JSON Viewer 1.6
+        JSON Viewer 1.6.1
         Copyright (c) 2008-2009, Hay Kranen <http://www.haykranen.nl/projects/jsonviewer/>
-
-        == Release notes ==
-
-        === 1.6 ===
-        * Remove slashes if magic quotes are on
-        * Added 'Show invalid JSON' mode
-
-        === 1.5 ===
-        * Added 'expand all' button
-        * Added 'clear' button next to form fields
-        * Some stylistic changes
-
-        === 1.4 ===
-        * Added raw data (text entry) mode for easy copy-pasting of JSON data
-        * Added 'open' arrow indicating nodes that have no children
-
-        === 1.3 ===
-        * Added 'raw mode'
-        * Some internal improvements
-
-        === 1.2 ===
-        * First node of the tree is now always shown
-        * Clicking on the url only deletes the complete field if it is the default url
-
-        === 1.1 ===
-        * Fixed parsing bug that makes the viewer more flexible with feeds that
-          are not valid
-
-        === 1.0 ===
-        * First release
 
         This software includes jQuery, (c) 2009 by John Resig and others, which
         is also released under the MIT license
