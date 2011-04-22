@@ -184,11 +184,6 @@
             $json = $_POST['data'];
         }
 
-        // Remove magic quotes if available
-        if (get_magic_quotes_gpc()) {
-            $json = stripslashes($json);
-        }
-
         echo json_viewer($json);
     }
 ?>

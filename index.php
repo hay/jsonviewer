@@ -3,15 +3,15 @@
 <html>
 <head>
     <!--
-        JSON viewer v<?php echo JSON_VIEWER; ?>        
-        (c) 2008-2010 by Hay Kranen <http://www.haykranen.nl/projects/jsonviewer>
+        JSON viewer v<?php echo JSON_VIEWER; ?>
+        (c) 2008-<?php echo date("y"); ?> by Hay Kranen <http://www.haykranen.nl/projects/jsonviewer>
         Released under the MIT license, see jsonviewer.php
-    -->    
+    -->
     <meta charset="utf-8" />
     <title>JSON viewer &raquo; haykranen.nl</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <script src="js/jsonviewer.js"></script>
 </head>
 <body>
